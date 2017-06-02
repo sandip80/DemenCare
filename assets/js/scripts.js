@@ -99,7 +99,7 @@ var appMaster = {
             $(this).addClass('active');
             $('#display-screen').empty();
             $('#display-screen').css('display', 'block');
-            $('#display-screen').append('<img src=\"assets/img/' + image + '.png\" class=\"img-responsive animated bounceIn\" alt=\"\">');
+            $('#display-screen').append('<img src=\"assets/img/screens/' + image + '.png\" class=\"img-responsive animated bounceIn\" alt=\"\">');
         });
 
     },
